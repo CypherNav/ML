@@ -11,7 +11,7 @@ def printVar():
     while True:
         if change:
             i=1
-           # change=False
+            change=False
         print(var,"X",i,"=",var*i)
         i=i+1
         time.sleep(1)
